@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuliner</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #2563eb;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+    }
+
+    /* Container */
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Card */
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 250px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .text {
+      flex: 1;
+    }
+
+    /* SELANG SELING */
+    .card:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .card h2 {
+      margin: 0 0 5px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #555;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    Home | Kuliner
+  </div>
+
+  <div class="container">
+    <h1>Rekomendasi Kuliner</h1>
+
+    <div class="card">
+      <img src="makanan hlmn ke dua.jpg">
+      <div class="text">
+        <h2>Gohu Ikan</h2>
+        <p>Gohu Ikan adalah makanan khas Ternate dengan ikan mentah segar yang dicampur jeruk nipis, bawang, cabai, dan disiram minyak panas.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="makanan ikan kuah pala Banda.jpg">
+      <div class="text">
+        <h2>Ikan Kuah Pala Banda</h2>
+        <p>Masakan khas Banda dengan kuah rempah pala, gurih, pedas, dan aroma khas rempah yang kuat.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="sambal colo colo.jpg">
+      <div class="text">
+        <h2>Sambal Colo-Colo</h2>
+        <p>Sambal khas Maluku dengan potongan cabai, bawang, dan tomat yang segar, pedas, dan asam.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
